@@ -59,6 +59,84 @@
       <p>&copy; 2026 Flipside Advertising. All rights reserved.</p>
     </footer>
 
+    <!-- CONCEPT SECTION: SHIFTING THE FLIPSIDE -->
+<section class="concepts-grid">
+  <div class="container">
+    <div class="header-group">
+      <span class="label">Our Lab</span>
+      <h2>Concept Campaigns</h2>
+      <p>We don't wait for the right moment; we create it. Explore our conceptual work for brands that demand a different perspective.</p>
+    </div>
+
+    <div class="bento-container">
+      <!-- CONCEPT 1: High-End Tech -->
+      <div class="bento-item large" style="background-image: url('your-concept-image-1.jpg');">
+        <div class="overlay">
+          <span class="tag">Tech / SaaS</span>
+          <h3>The "Lumina" Campaign</h3>
+          <p>Reimagining user acquisition for high-growth tech platforms.</p>
+          <a href="#" class="view-case">View Strategy →</a>
+        </div>
+      </div>
+
+      <!-- CONCEPT 2: Modern Beverage -->
+      <div class="bento-item medium" style="background-image: url('your-concept-image-2.jpg');">
+        <div class="overlay">
+          <span class="tag">Lifestyle</span>
+          <h3>Aura Seltzer</h3>
+          <p>Visual storytelling for the wellness generation.</p>
+        </div>
+      </div>
+
+      <!-- CONCEPT 3: E-commerce -->
+      <div class="bento-item medium" style="background-image: url('your-concept-image-3.jpg');">
+        <div class="overlay">
+          <span class="tag">D2C</span>
+          <h3>Vanguard Sole</h3>
+          <p>High-conversion social ads for luxury footwear.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Sleek Minimalist Theme */
+  .concepts-grid { background: #0a0a0a; color: #fff; padding: 100px 20px; }
+  .label { color: #00ffcc; text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; }
+  .header-group h2 { font-size: 3rem; margin: 10px 0; }
+  .header-group p { color: #888; max-width: 600px; margin-bottom: 50px; }
+
+  /* Bento Grid Layout */
+  .bento-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    grid-auto-rows: 300px;
+  }
+  .bento-item {
+    position: relative;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+  }
+  .bento-item.large { grid-column: span 2; grid-row: span 2; }
+  .bento-item:hover { transform: scale(1.02); }
+
+  /* Content Overlay */
+  .overlay {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    padding: 30px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  }
+  .tag { background: #00ffcc; color: #000; padding: 4px 12px; border-radius: 50px; font-size: 0.7rem; font-weight: bold; }
+  .overlay h3 { margin: 15px 0 5px; }
+  .view-case { color: #00ffcc; text-decoration: none; font-weight: bold; }
+</style>
+    
   </body>
 </html>
 
